@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:nothingbuttre/screen/maincreen.dart';
+import 'package:newcalculator/screen/calculatormainpage.dart';
 
 void main(List<String> args) {
   runApp(
-    MyApp(),
+    const MyApp(),
   );
 }
 
@@ -12,8 +12,8 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: MainAppPage(),
+    return const MaterialApp(
+      home: CalculatorMainPage(),
     );
   }
 }
